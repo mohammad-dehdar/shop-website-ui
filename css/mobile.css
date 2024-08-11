@@ -1,0 +1,7 @@
+/* ریسپانسیو هدر  */
+div.header {
+    width: 480px;
+}
+div.navba>div.searchbar {
+    display: none;
+}

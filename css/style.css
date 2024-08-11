@@ -1,0 +1,19 @@
+div.gifts {
+    display: flex;
+}
+
+div.gifts > ul.gift-list {
+    display: flex;
+    list-style-type: none;
+}
+
+div.gifts > ul.gift-list > li > a > div.gift-img  {
+    width: 226.35px;
+    height: 226.35px;
+}
+
+div.gifts > ul.gift-list > li > a > div.gift-img > image {
+    width: 100%;
+    height: 100%;
+}
+

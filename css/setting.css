@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'sansori';
+    src: url("./font/sans.eot");
+    src: url("./font/sans.otf");
+    src: url("./font/sans.ttf");
+    src: url("./font/sans.woff");
+    src: url("./font/sans.woff2");
+}
+
+body {
+    font-family: 'sansori';
+    font-size: 0.875rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+span {
+    text-decoration: line-through;
+    color: #666666;
+}

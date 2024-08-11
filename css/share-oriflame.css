@@ -1,0 +1,192 @@
+div.share-oriflame {
+    margin-top: 40px;
+    padding: 0 100px;
+}
+
+div.share-oriflame>.button-title>div.whats-news-title {
+    text-align: center;
+    font-size: 2.3rem;
+    line-height: 1.67;
+    font-weight: 800;
+    color: #333333;
+    margin-bottom: 30px;
+    >p {
+        font-size: 17px;
+        font-weight: 300;
+        text-align: center;
+    }
+}
+
+div.share-oriflame>div.button-title>a {
+    height: 45px;
+    padding: 15px;
+    border: 1px solid #333333;
+    border-radius: 25px;
+    background: none;
+    font-family: 'sans';
+    font-weight: 600;
+    color: #333333;
+    transition: 300ms;
+}
+
+div.share-oriflame>div.button-title>a:hover {
+    background-color: #f5f5f5;
+}
+
+div.share-oriflame>div.button-title>#hidden {
+    visibility: hidden;
+}
+
+.mySwiper1 {
+    width: 100%;
+    height: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: scroll;
+}
+
+div.swiper-container > div.mySwiper1 > div.swiper-wrapper {
+    position: relative;
+}
+
+div.swiper-container > div.mySwiper1 > div.swiper-wrapper> .swiper-slide {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    background-size: contain;
+    height: calc((100% - 30px) / 2) !important;
+    /* Center slide text vertically */
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+div.swiper-container > div.mySwiper1 > div.swiper-wrapper> .swiper-slide > img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.swiper-slide:first-child {
+    position: absolute;
+    top: 150px;
+    z-index: 4;
+    transition: 300ms;
+}
+
+.swiper-slide > img:hover {
+    opacity: 0.7;
+}
+
+.swiper-slide > p {
+    display: none;
+    position: absolute;
+    bottom: 118px;
+    left: 55px;
+    font-size: 20px;
+    color: #ffff;
+}
+
+.swiper-slide:hover p {
+    display: block;
+}
+
+.play-icon {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    opacity: 0.7;
+    background: white;
+}
+
+.swiper-slide:nth-child(5)  {
+    display: none;
+    position: absolute;
+    top: 40px;
+    z-index: 4;
+    transition: 300ms;   
+}
+
+.swiper-slide:nth-child(7)  {
+    display: none;
+    position: absolute;
+    top: 250px;
+    z-index: 4;
+    transition: 300ms;   
+}
+
+.swiper-slide:nth-child(11)  {
+    display: none;
+    position: absolute;
+    top: 40px;
+    z-index: 4;
+    transition: 300ms;   
+}
+
+.swiper-slide:nth-child(13)  {
+    display: none;
+    position: absolute;
+    top: 250px;
+    z-index: 4;
+    transition: 300ms;   
+}
+
+.swiper-slide:nth-child(15) {
+    position: absolute;
+    top: 150px;
+    z-index: 4;
+    transition: 300ms;
+}
+
+.swiper-slide:nth-child(19)  {
+    display: none;
+    position: absolute;
+    top: 40px;
+    z-index: 4;
+    transition: 300ms;    
+}
+
+.swiper-slide:nth-child(21) {
+    display: none;
+    position: absolute;
+    top: 250px;
+    z-index: 4;
+    transition: 300ms;
+}
+    
+.swiper-slide:nth-child(23) {
+    position: absolute;
+    top: 150px;
+    z-index: 4;
+    transition: 300ms;   
+}
+
+.swiper-slide:nth-child(27) {
+    display: none;
+    position: absolute;
+    top: 40px;
+    z-index: 4;
+    transition: 300ms;
+}
+
+.swiper-slide:nth-child(29) {
+    display: none;
+    position: absolute;
+    top: 250px;
+    z-index: 4;
+    transition: 300ms;
+}   
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #333333;
+  font-size: 18px;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #f5f5f5;
+}

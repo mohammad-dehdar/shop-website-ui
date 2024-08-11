@@ -1,0 +1,32 @@
+div.tablist {
+    height: 48px;
+    padding: 0 100px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color: #f5f5f5;
+    box-shadow: 0px 5px 5px 0px rgba(142, 142, 142, 0.75);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(142, 142, 142, 0.15);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(142, 142, 142, 0.15);
+}
+
+div.tablist > div.tablist-menu {
+    width: 100%;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.tablist a {
+    /* margin-right: 50px; */
+    font-size: 14px;
+    font-weight: 600;
+    color: #343434;
+}
+
+div.tablist a:hover {
+    color: #555;
+}
+
